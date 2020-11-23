@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".result">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView200"
+        android:layout_marginTop="8dp"
+        android:textSize="30sp"
+        android:background="#00FFAA"
+        android:text="aaa"
+        android:id="@+id/textView100"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="下巻のナイロン長さは"
+        android:textSize="20sp"
+        android:id="@+id/textView200"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textView100"
+        android:layout_below="@+id/textView200"
+        android:layout_marginTop="16dp"
+        android:text="m"
+        android:textSize="20sp"
+        android:id="@+id/textView300"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView500"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="#FFFF00"
+        android:text="bbb"
+        android:textSize="30sp"
+        android:id="@+id/textView400"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView100"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="リールのハンドルは"
+        android:textSize="20sp"
+        android:id="@+id/textView500"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textView400"
+        android:layout_below="@+id/textView500"
+        android:layout_marginTop="16dp"
+        android:text="回転"
+        android:textSize="20sp"
+        android:id="@+id/textView600"/>
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="戻る"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView600"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom_button"
+        android:textColor="@color/colorButtonText"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>

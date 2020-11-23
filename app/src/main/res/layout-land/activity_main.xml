@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    tools:context=".MainActivity">
+
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:descendantFocusability="beforeDescendants"
+     android:focusableInTouchMode="true">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="【リールのスペック入力】"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="20dp"
+        android:text="■ナイロン"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="40dp"
+        android:text="■PE"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="25dp"
+        android:text="・太さの単位選択"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_toRightOf="@+id/textView4"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="60dp"
+        android:text="・PE太さ"/>
+
+    <Spinner
+        android:id="@+id/spinnerUnit1"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="40dp"
+        android:background="#E0E0E0"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:id="@+id/spinnerUnit2"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView4"
+        android:layout_toRightOf="@+id/spinnerUnit1"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="90dp"
+        android:background="#E0E0E0"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_toRightOf="@+id/spinnerUnit2"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="4dp"
+        android:text="号"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerUnit1"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="25dp"
+        android:text="・ナイロン太さ"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerUnit1"
+        android:layout_toRightOf="@+id/textView4"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="60dp"
+        android:text="・PE長さ"/>
+
+    <Spinner
+        android:id="@+id/spinnerUnit3"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="40dp"
+        android:background="#E0E0E0"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_toRightOf="@+id/spinnerUnit3"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="4dp"
+        android:text="lb"/>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="40dp"
+        android:nextFocusDown="@+id/editText2"
+        android:inputType="number"/>
+
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_toRightOf="@+id/textView9"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="70dp"
+        android:nextFocusDown="@+id/editText3"
+        android:inputType="number"/>
+
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_toRightOf="@+id/editText2"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="4dp"
+        android:text="m"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerUnit3"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="25dp"
+        android:text="・ナイロン長さ"/>
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_toRightOf="@+id/editText1"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="4dp"
+        android:text="m"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="20dp"
+        android:text="■ハンドル1回転の巻取り量"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="40dp"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:layout_toRightOf="@+id/editText3"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="4dp"
+        android:text="cm"/>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_marginTop="4dp"
+        android:text="【巻きたいPEの太さと長さ】"/>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="25dp"
+        android:text="・PE太さ"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textView16"
+        android:layout_below="@+id/textView15"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="115dp"
+        android:text="・PE長さ"/>
+
+    <Spinner
+        android:id="@+id/spinnerUnit4"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView16"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="40dp"
+        android:background="#E0E0E0"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView16"
+        android:layout_toRightOf="@+id/spinnerUnit4"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="4dp"
+        android:text="号"/>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView16"
+        android:layout_toRightOf="@+id/textView9"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="70dp"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView16"
+        android:layout_toRightOf="@+id/editText4"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="4dp"
+        android:text="m"/>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerUnit4"
+        android:layout_marginTop="8dp"
+        android:text="【下巻に使うナイロンの太さ】"/>
+
+    <Spinner
+        android:id="@+id/spinnerUnit5"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView20"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="40dp"
+        android:background="#E0E0E0"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView20"
+        android:layout_toRightOf="@+id/spinnerUnit5"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="4dp"
+        android:text="lb"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/spinnerUnit5"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="計算"
+        android:textSize="18sp"
+        android:id="@+id/button1"
+        android:background="@drawable/custom_button"
+        android:textColor="@color/colorButtonText"/>
+
+ </RelativeLayout>
+
+</ScrollView>

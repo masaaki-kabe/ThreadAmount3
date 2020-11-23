@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+
+    android:isScrollContainer="false"
+    tools:context=".manual">
+
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/manual1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="【このアプリについて】"/>
+
+
+
+    <TextView
+        android:id="@+id/manual3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="このアプリは、リールの下巻の長さを計算するソフトです"/>
+
+
+    <TextView
+        android:id="@+id/manual4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:text="【使用方法】"/>
+
+    <TextView
+        android:id="@+id/manual5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="1. リールのスペック入力"/>
+
+    <TextView
+        android:id="@+id/manual6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="-メーカーのホームページでリールの糸巻量のスペックを確認します"/>
+
+    <TextView
+        android:id="@+id/manual7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="-通常、下のようにPE:3条件、ナイロン：3条件が記載されています"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/itomaki2"/>
+
+
+    <TextView
+        android:id="@+id/manual8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="-そのうちのPE：1条件、ナイロン：１条件を入力していきます"/>
+
+    <TextView
+        android:id="@+id/manual9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="-自分が巻きたいPEとナイロンの太さに近い条件がいいでしょう"/>
+
+    <TextView
+        android:id="@+id/manual10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="-ナイロンの記載は単位が「号」と「lb」があるので注意してください"/>
+
+    <TextView
+        android:id="@+id/manual11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="-「太さの単位選択」で、号とlbを選び、そのあとナイロンの太さが選べます"/>
+
+
+        <TextView
+            android:id="@+id/manual26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="-選んだ条件のPEの太さ長さを入力します"/>
+
+
+    <TextView
+    android:id="@+id/manual12"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+    android:text="-次にハンドル１回転の巻取り量を入力します"/>
+
+    <TextView
+        android:id="@+id/manual13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="-これは単位がcmなので注意してください"/>
+
+    <TextView
+        android:id="@+id/manual14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="2.巻きたいPEの太さと長さ"/>
+
+
+    <TextView
+        android:id="@+id/manual15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="-自分が巻きたいPEの太さ（号数）と長さを入力します"/>
+
+    <TextView
+        android:id="@+id/manual16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="3.下巻に使うナイロンの太さ"/>
+
+    <TextView
+        android:id="@+id/manual17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="-自分が巻きたい下巻のナイロンの太さを入力します"/>
+
+
+    <TextView
+        android:id="@+id/manual18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="4.結果出力"/>
+
+    <TextView
+        android:id="@+id/manual19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="-全項目の入力が終わったら、「計算」を押します"/>
+
+    <TextView
+        android:id="@+id/manual20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="-下巻のナイロンの長さと、何回リールのハンドルを回せばいいか出力されます"/>
+
+    <TextView
+        android:id="@+id/manual22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:text="【注意事項】"/>
+
+    <TextView
+        android:id="@+id/manual23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textColor="#FF0000"
+        android:text="結果はあくまでも目安です"/>
+
+        <TextView
+            android:id="@+id/manual24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textColor="#FF0000"
+            android:text="参考値としてお考え下さい"/>
+
+  <TextView
+            android:id="@+id/manual25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="（メーカによりPEの太さが違います）"/>
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="START"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_button"
+            android:textColor="@color/colorButtonText"/>
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+
+</ScrollView>
